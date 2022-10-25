@@ -1,0 +1,324 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 134900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Demo",
+        "description": "",
+        "id": "scenario-outline-demo;demo;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2034000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97796200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"test@gmail.com\" in email input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "TestScenarioOutlineSteps.user_enter_in_email_input_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"123\" in password input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 12
+                }
+              ],
+              "location": "TestScenarioOutlineSteps.user_enter_in_password_input_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click Login button",
+            "match": {
+              "location": "TestScenarioOutlineSteps.user_click_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should successfully sign in",
+            "match": {
+              "location": "TestScenarioOutlineSteps.user_should_successfully_sign_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@scenarioOutline"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 59200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Demo",
+        "description": "",
+        "id": "scenario-outline-demo;demo;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 34500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 78300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"test1@gmail.com\" in email input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "TestScenarioOutlineSteps.user_enter_in_email_input_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"1234\" in password input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 12
+                }
+              ],
+              "location": "TestScenarioOutlineSteps.user_enter_in_password_input_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click Login button",
+            "match": {
+              "location": "TestScenarioOutlineSteps.user_click_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should successfully sign in",
+            "match": {
+              "location": "TestScenarioOutlineSteps.user_should_successfully_sign_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@scenarioOutline"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 29800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Demo",
+        "description": "",
+        "id": "scenario-outline-demo;demo;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 25900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 94600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"test2@gmail.com\" in email input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "TestScenarioOutlineSteps.user_enter_in_email_input_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"12345\" in password input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 12
+                }
+              ],
+              "location": "TestScenarioOutlineSteps.user_enter_in_password_input_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click Login button",
+            "match": {
+              "location": "TestScenarioOutlineSteps.user_click_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should successfully sign in",
+            "match": {
+              "location": "TestScenarioOutlineSteps.user_should_successfully_sign_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@scenarioOutline"
+          }
+        ]
+      }
+    ],
+    "name": "Scenario Outline Demo",
+    "description": "",
+    "id": "scenario-outline-demo",
+    "keyword": "Feature",
+    "uri": "features/smoke/ScenarioOutline.feature"
+  }
+]
